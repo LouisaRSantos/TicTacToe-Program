@@ -202,6 +202,11 @@ namespace Tic_Tac_Toe_Program__Redo_
             {
                 MessageBox.Show("YEY! " + TicTacB5.Text + " wins!");
             }
+            if ((TicTacB1.Text == TicTacB5.Text) && (TicTacB5.Text == TicTacB9.Text))
+            {
+                MessageBox.Show("YEY! " + TicTacB5.Text + " wins!");
+            }
+            
             //if draw
             if (turn == 9)
             {
@@ -313,7 +318,7 @@ namespace Tic_Tac_Toe_Program__Redo_
             }
             if ((TicTacB2.Text == TicTacB5.Text) && (TicTacB5.Text == TicTacB8.Text))
             {
-                MessageBox.Show("YEY! " + TicTacB2.Text + " wins!");
+                MessageBox.Show("YEY! " + TicTacB8.Text + " wins!");
             }
 
             //if draw
@@ -342,6 +347,26 @@ namespace Tic_Tac_Toe_Program__Redo_
                 }
             }
             TicTacB9.Enabled = false;
+
+            //checking
+            if ((TicTacB7.Text == TicTacB8.Text) && (TicTacB8.Text == TicTacB9.Text))
+            {
+                MessageBox.Show("Yey! " + TicTacB9.Text + " wins!");
+            }
+            if ((TicTacB1.Text == TicTacB5.Text) && (TicTacB5.Text == TicTacB9.Text))
+            {
+                MessageBox.Show("YEY! " + TicTacB9.Text + " wins!");
+            }
+            if ((TicTacB3.Text == TicTacB6.Text) && (TicTacB6.Text == TicTacB9.Text))
+            {
+                MessageBox.Show("Yey! " + TicTacB3.Text + " wins!");
+            }
+
+            //if draw
+            if (turn == 9)
+            {
+                MessageBox.Show("Draw!");
+            }
         }
        
     }
