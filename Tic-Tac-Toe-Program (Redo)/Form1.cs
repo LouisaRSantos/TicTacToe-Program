@@ -78,6 +78,15 @@ namespace Tic_Tac_Toe_Program__Redo_
             }
             TicTacB4.Enabled = false;
             
+            //checking
+            if ((TicTacB1.Text == TicTacB4.Text) && (TicTacB4.Text == TicTacB7.Text))
+            {
+                MessageBox.Show("YEY! " + TicTacB4.Text + " wins!");
+            }
+            if ((TicTacB4.Text == TicTacB5.Text) && (TicTacB5.Text == TicTacB6.Text))
+            {
+                MessageBox.Show("YEY! " + TicTacB4.Text + " wins!");
+            }
         }
 
         private void TicTacB2_Click(object sender, EventArgs e)
