@@ -406,6 +406,63 @@ namespace Tic_Tac_Toe_Program__Redo_
             TicTacB9.Enabled = true;
 
         }
+
+        private void MenuFileNewGame_Click(object sender, EventArgs e)
+        {
+            turn = 0;
+            //Text
+            TicTacB1.Text = "";
+            TicTacB2.Text = "";
+            TicTacB3.Text = "";
+            TicTacB4.Text = "";
+            TicTacB5.Text = "";
+            TicTacB6.Text = "";
+            TicTacB7.Text = "";
+            TicTacB8.Text = "";
+            TicTacB9.Text = "";
+
+            //Color
+            TicTacB1.BackColor = System.Drawing.Color.WhiteSmoke;
+            TicTacB2.BackColor = System.Drawing.Color.WhiteSmoke;
+            TicTacB3.BackColor = System.Drawing.Color.WhiteSmoke;
+            TicTacB4.BackColor = System.Drawing.Color.WhiteSmoke;
+            TicTacB5.BackColor = System.Drawing.Color.WhiteSmoke;
+            TicTacB6.BackColor = System.Drawing.Color.WhiteSmoke;
+            TicTacB7.BackColor = System.Drawing.Color.WhiteSmoke;
+            TicTacB8.BackColor = System.Drawing.Color.WhiteSmoke;
+            TicTacB9.BackColor = System.Drawing.Color.WhiteSmoke;
+
+            //Enabling button
+            TicTacB1.Enabled = true;
+            TicTacB2.Enabled = true;
+            TicTacB3.Enabled = true;
+            TicTacB4.Enabled = true;
+            TicTacB5.Enabled = true;
+            TicTacB6.Enabled = true;
+            TicTacB7.Enabled = true;
+            TicTacB8.Enabled = true;
+            TicTacB9.Enabled = true;
+        }
+
+        private void MenuFileExit_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void MenuFileProcedure_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Steps in playing Tic-Tac-Toe:\r\n" + "1. Have the first player go first.\r\n" + "2. Have the second player go next.\r\n" + "3. Keep alternating moves until one has drawn a row of three X or O.\r\n" + "4. Enjoy the game!", "How to play Tic-Tac-Toe");
+        }
+
+        private void MenuFileCreator_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("   Tic-Tac-Toe is a game in which two players seek\r\n" + "in alternate turns to complete a row, a column, or \r\n" + "a diagonal with either three O's or three X's drawn \r\n" + "in the spaces of a grid of nine squares.", "About the Game");
+        }
+
+        private void MenuFileGame_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Steps in playing Tic-Tac-Toe:\r\n" + "1. Have the first player go first.\r\n" + "2. Have the second player go next.\r\n" + "3. Keep alternating moves until one has drawn a row of three X or O.\r\n" + "4. Enjoy the game!", "How to play Tic-Tac-Toe");
+        }
        
     }
 }

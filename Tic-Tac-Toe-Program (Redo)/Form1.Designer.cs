@@ -176,12 +176,14 @@
             this.MenuFileNewGame.Name = "MenuFileNewGame";
             this.MenuFileNewGame.Size = new System.Drawing.Size(152, 22);
             this.MenuFileNewGame.Text = "New Game";
+            this.MenuFileNewGame.Click += new System.EventHandler(this.MenuFileNewGame_Click);
             // 
             // MenuFileExit
             // 
             this.MenuFileExit.Name = "MenuFileExit";
             this.MenuFileExit.Size = new System.Drawing.Size(152, 22);
             this.MenuFileExit.Text = "Exit";
+            this.MenuFileExit.Click += new System.EventHandler(this.MenuFileExit_Click);
             // 
             // MenuHelp
             // 
@@ -205,18 +207,21 @@
             this.MenuFileProcedure.Name = "MenuFileProcedure";
             this.MenuFileProcedure.Size = new System.Drawing.Size(152, 22);
             this.MenuFileProcedure.Text = "Procedure";
+            this.MenuFileProcedure.Click += new System.EventHandler(this.MenuFileProcedure_Click);
             // 
             // MenuFileCreator
             // 
             this.MenuFileCreator.Name = "MenuFileCreator";
             this.MenuFileCreator.Size = new System.Drawing.Size(152, 22);
             this.MenuFileCreator.Text = "Creator";
+            this.MenuFileCreator.Click += new System.EventHandler(this.MenuFileCreator_Click);
             // 
             // MenuFileGame
             // 
             this.MenuFileGame.Name = "MenuFileGame";
             this.MenuFileGame.Size = new System.Drawing.Size(152, 22);
             this.MenuFileGame.Text = "Game";
+            this.MenuFileGame.Click += new System.EventHandler(this.MenuFileGame_Click);
             // 
             // TicTacBReset
             // 
