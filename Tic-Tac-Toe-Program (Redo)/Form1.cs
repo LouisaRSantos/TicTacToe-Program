@@ -161,6 +161,10 @@ namespace Tic_Tac_Toe_Program__Redo_
             {
                 MessageBox.Show("Yey! " + TicTacB3.Text + " wins!");
             }
+            if ((TicTacB3.Text == TicTacB5.Text) && (TicTacB5.Text == TicTacB7.Text))
+            {
+                MessageBox.Show("Yey! " + TicTacB3.Text + " wins!");
+            }
             //if draw
             if (turn == 9)
             {
@@ -234,6 +238,7 @@ namespace Tic_Tac_Toe_Program__Redo_
             {
                 MessageBox.Show("Yey! " + TicTacB3.Text + " wins!");
             }
+
             //if draw
             if (turn == 9)
             {
@@ -260,6 +265,26 @@ namespace Tic_Tac_Toe_Program__Redo_
                 }
             }
             TicTacB7.Enabled = false;
+
+            //checking
+            if ((TicTacB1.Text == TicTacB4.Text) && (TicTacB4.Text == TicTacB7.Text))
+            {
+                MessageBox.Show("YEY! " + TicTacB7.Text + " wins!");
+            }
+            if ((TicTacB3.Text == TicTacB5.Text) && (TicTacB5.Text == TicTacB7.Text))
+            {
+                MessageBox.Show("Yey! " + TicTacB7.Text + " wins!");
+            }
+            if ((TicTacB7.Text == TicTacB8.Text) && (TicTacB8.Text == TicTacB9.Text))
+            {
+                MessageBox.Show("Yey! " + TicTacB7.Text + " wins!");
+            }
+
+            //if draw
+            if (turn == 9)
+            {
+                MessageBox.Show("Draw!");
+            }
         }
 
         private void TicTacB8_Click(object sender, EventArgs e)
