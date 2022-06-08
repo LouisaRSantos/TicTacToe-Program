@@ -305,6 +305,23 @@ namespace Tic_Tac_Toe_Program__Redo_
                 }
             }
             TicTacB8.Enabled = false;
+
+            //checking
+            if ((TicTacB7.Text == TicTacB8.Text) && (TicTacB8.Text == TicTacB9.Text))
+            {
+                MessageBox.Show("Yey! " + TicTacB8.Text + " wins!");
+            }
+            if ((TicTacB2.Text == TicTacB5.Text) && (TicTacB5.Text == TicTacB8.Text))
+            {
+                MessageBox.Show("YEY! " + TicTacB2.Text + " wins!");
+            }
+
+            //if draw
+            if (turn == 9)
+            {
+                MessageBox.Show("Draw!");
+            }
+
         }
 
         private void TicTacB9_Click(object sender, EventArgs e)
