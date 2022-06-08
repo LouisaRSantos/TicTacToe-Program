@@ -16,7 +16,7 @@ namespace Tic_Tac_Toe_Program__Redo_
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new TicTacToe());
         }
     }
 }
