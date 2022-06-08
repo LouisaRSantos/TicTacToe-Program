@@ -28,12 +28,12 @@ namespace Tic_Tac_Toe_Program__Redo_
                 if (turn % 2 == 0)
                 {
                     TicTacB1.Text = "O";
-                    TicTacB1.BackColor = Color.PaleGoldenrod;
+                    TicTacB1.BackColor = Color.LightSkyBlue;
                 }
                 else
                 {
                     TicTacB1.Text = "X";
-                    TicTacB1.BackColor = Color.LightGoldenrodYellow;
+                    TicTacB1.BackColor = Color.DeepSkyBlue;
                 }
             }
             TicTacB1.Enabled = false;
@@ -69,12 +69,12 @@ namespace Tic_Tac_Toe_Program__Redo_
                 if (turn % 2 == 0)
                 {
                     TicTacB4.Text = "O";
-                    TicTacB4.BackColor = Color.PaleGoldenrod;
+                    TicTacB4.BackColor = Color.LightSkyBlue;
                 }
                 else
                 {
                     TicTacB4.Text = "X";
-                    TicTacB4.BackColor = Color.LightGoldenrodYellow;
+                    TicTacB4.BackColor = Color.DeepSkyBlue;
                 }
             }
             TicTacB4.Enabled = false;
@@ -105,12 +105,12 @@ namespace Tic_Tac_Toe_Program__Redo_
                 if (turn % 2 == 0)
                 {
                     TicTacB2.Text = "O";
-                    TicTacB2.BackColor = Color.PaleGoldenrod;
+                    TicTacB2.BackColor = Color.LightSkyBlue;
                 }
                 else
                 {
                     TicTacB2.Text = "X";
-                    TicTacB2.BackColor = Color.LightGoldenrodYellow;
+                    TicTacB2.BackColor = Color.DeepSkyBlue;
                 }
             }
             TicTacB2.Enabled = false;
@@ -141,12 +141,12 @@ namespace Tic_Tac_Toe_Program__Redo_
                 if (turn % 2 == 0)
                 {
                     TicTacB3.Text = "O";
-                    TicTacB3.BackColor = Color.PaleGoldenrod;
+                    TicTacB3.BackColor = Color.LightSkyBlue;
                 }
                 else
                 {
                     TicTacB3.Text = "X";
-                    TicTacB3.BackColor = Color.LightGoldenrodYellow;
+                    TicTacB3.BackColor = Color.DeepSkyBlue;
                 }
             }
             TicTacB3.Enabled = false;
@@ -182,12 +182,12 @@ namespace Tic_Tac_Toe_Program__Redo_
                 if (turn % 2 == 0)
                 {
                     TicTacB5.Text = "O";
-                    TicTacB5.BackColor = Color.PaleGoldenrod;
+                    TicTacB5.BackColor = Color.LightSkyBlue;
                 }
                 else
                 {
                     TicTacB5.Text = "X";
-                    TicTacB5.BackColor = Color.LightGoldenrodYellow;
+                    TicTacB5.BackColor = Color.DeepSkyBlue;
                 }
             }
             TicTacB5.Enabled = false;
@@ -224,12 +224,12 @@ namespace Tic_Tac_Toe_Program__Redo_
                 if (turn % 2 == 0)
                 {
                     TicTacB6.Text = "O";
-                    TicTacB6.BackColor = Color.PaleGoldenrod;
+                    TicTacB6.BackColor = Color.LightSkyBlue;
                 }
                 else
                 {
                     TicTacB6.Text = "X";
-                    TicTacB6.BackColor = Color.LightGoldenrodYellow;
+                    TicTacB6.BackColor = Color.DeepSkyBlue;
                 }
             }
             TicTacB6.Enabled = false;
@@ -261,12 +261,12 @@ namespace Tic_Tac_Toe_Program__Redo_
                 if (turn % 2 == 0)
                 {
                     TicTacB7.Text = "O";
-                    TicTacB7.BackColor = Color.PaleGoldenrod;
+                    TicTacB7.BackColor = Color.LightSkyBlue;
                 }
                 else
                 {
                     TicTacB7.Text = "X";
-                    TicTacB7.BackColor = Color.LightGoldenrodYellow;
+                    TicTacB7.BackColor = Color.DeepSkyBlue;
                 }
             }
             TicTacB7.Enabled = false;
@@ -301,12 +301,12 @@ namespace Tic_Tac_Toe_Program__Redo_
                 if (turn % 2 == 0)
                 {
                     TicTacB8.Text = "O";
-                    TicTacB8.BackColor = Color.PaleGoldenrod;
+                    TicTacB8.BackColor = Color.LightSkyBlue;
                 }
                 else
                 {
                     TicTacB8.Text = "X";
-                    TicTacB8.BackColor = Color.LightGoldenrodYellow;
+                    TicTacB8.BackColor = Color.DeepSkyBlue;
                 }
             }
             TicTacB8.Enabled = false;
@@ -338,12 +338,12 @@ namespace Tic_Tac_Toe_Program__Redo_
                 if (turn % 2 == 0)
                 {
                     TicTacB9.Text = "O";
-                    TicTacB9.BackColor = Color.PaleGoldenrod;
+                    TicTacB9.BackColor = Color.LightSkyBlue;
                 }
                 else
                 {
                     TicTacB9.Text = "X";
-                    TicTacB9.BackColor = Color.LightGoldenrodYellow;
+                    TicTacB9.BackColor = Color.DeepSkyBlue;
                 }
             }
             TicTacB9.Enabled = false;
@@ -367,6 +367,44 @@ namespace Tic_Tac_Toe_Program__Redo_
             {
                 MessageBox.Show("Draw!");
             }
+        }
+
+        private void TicTacBReset_Click(object sender, EventArgs e)
+        {
+            turn = 0;
+            //Text
+            TicTacB1.Text = "";
+            TicTacB2.Text = "";
+            TicTacB3.Text = "";
+            TicTacB4.Text = "";
+            TicTacB5.Text = "";
+            TicTacB6.Text = "";
+            TicTacB7.Text = "";
+            TicTacB8.Text = "";
+            TicTacB9.Text = "";
+
+            //Color
+            TicTacB1.BackColor = System.Drawing.Color.WhiteSmoke;
+            TicTacB2.BackColor = System.Drawing.Color.WhiteSmoke;
+            TicTacB3.BackColor = System.Drawing.Color.WhiteSmoke;
+            TicTacB4.BackColor = System.Drawing.Color.WhiteSmoke;
+            TicTacB5.BackColor = System.Drawing.Color.WhiteSmoke;
+            TicTacB6.BackColor = System.Drawing.Color.WhiteSmoke;
+            TicTacB7.BackColor = System.Drawing.Color.WhiteSmoke;
+            TicTacB8.BackColor = System.Drawing.Color.WhiteSmoke;
+            TicTacB9.BackColor = System.Drawing.Color.WhiteSmoke;
+
+            //Enabling button
+            TicTacB1.Enabled = true;
+            TicTacB2.Enabled = true;
+            TicTacB3.Enabled = true;
+            TicTacB4.Enabled = true;
+            TicTacB5.Enabled = true;
+            TicTacB6.Enabled = true;
+            TicTacB7.Enabled = true;
+            TicTacB8.Enabled = true;
+            TicTacB9.Enabled = true;
+
         }
        
     }

@@ -53,92 +53,101 @@
             // 
             // TicTacB1
             // 
+            this.TicTacB1.BackColor = System.Drawing.Color.WhiteSmoke;
             this.TicTacB1.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TicTacB1.Location = new System.Drawing.Point(16, 37);
             this.TicTacB1.Name = "TicTacB1";
             this.TicTacB1.Size = new System.Drawing.Size(90, 75);
             this.TicTacB1.TabIndex = 0;
-            this.TicTacB1.UseVisualStyleBackColor = true;
+            this.TicTacB1.UseVisualStyleBackColor = false;
             this.TicTacB1.Click += new System.EventHandler(this.TicTacB1_Click);
             // 
             // TicTacB2
             // 
+            this.TicTacB2.BackColor = System.Drawing.Color.WhiteSmoke;
             this.TicTacB2.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TicTacB2.Location = new System.Drawing.Point(16, 118);
             this.TicTacB2.Name = "TicTacB2";
             this.TicTacB2.Size = new System.Drawing.Size(90, 75);
             this.TicTacB2.TabIndex = 1;
-            this.TicTacB2.UseVisualStyleBackColor = true;
+            this.TicTacB2.UseVisualStyleBackColor = false;
             this.TicTacB2.Click += new System.EventHandler(this.TicTacB2_Click);
             // 
             // TicTacB3
             // 
+            this.TicTacB3.BackColor = System.Drawing.Color.WhiteSmoke;
             this.TicTacB3.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TicTacB3.Location = new System.Drawing.Point(16, 202);
             this.TicTacB3.Name = "TicTacB3";
             this.TicTacB3.Size = new System.Drawing.Size(90, 75);
             this.TicTacB3.TabIndex = 2;
-            this.TicTacB3.UseVisualStyleBackColor = true;
+            this.TicTacB3.UseVisualStyleBackColor = false;
             this.TicTacB3.Click += new System.EventHandler(this.TicTacB3_Click);
             // 
             // TicTacB6
             // 
+            this.TicTacB6.BackColor = System.Drawing.Color.WhiteSmoke;
             this.TicTacB6.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TicTacB6.Location = new System.Drawing.Point(112, 202);
             this.TicTacB6.Name = "TicTacB6";
             this.TicTacB6.Size = new System.Drawing.Size(90, 75);
             this.TicTacB6.TabIndex = 5;
-            this.TicTacB6.UseVisualStyleBackColor = true;
+            this.TicTacB6.UseVisualStyleBackColor = false;
             this.TicTacB6.Click += new System.EventHandler(this.TicTacB6_Click);
             // 
             // TicTacB5
             // 
+            this.TicTacB5.BackColor = System.Drawing.Color.WhiteSmoke;
             this.TicTacB5.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TicTacB5.Location = new System.Drawing.Point(112, 118);
             this.TicTacB5.Name = "TicTacB5";
             this.TicTacB5.Size = new System.Drawing.Size(90, 75);
             this.TicTacB5.TabIndex = 4;
-            this.TicTacB5.UseVisualStyleBackColor = true;
+            this.TicTacB5.UseVisualStyleBackColor = false;
             this.TicTacB5.Click += new System.EventHandler(this.TicTacB5_Click);
             // 
             // TicTacB4
             // 
+            this.TicTacB4.BackColor = System.Drawing.Color.WhiteSmoke;
             this.TicTacB4.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TicTacB4.Location = new System.Drawing.Point(112, 37);
             this.TicTacB4.Name = "TicTacB4";
             this.TicTacB4.Size = new System.Drawing.Size(90, 75);
             this.TicTacB4.TabIndex = 3;
-            this.TicTacB4.UseVisualStyleBackColor = true;
+            this.TicTacB4.UseVisualStyleBackColor = false;
             this.TicTacB4.Click += new System.EventHandler(this.TicTacB4_Click);
             // 
             // TicTacB9
             // 
+            this.TicTacB9.BackColor = System.Drawing.Color.WhiteSmoke;
             this.TicTacB9.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TicTacB9.Location = new System.Drawing.Point(208, 202);
             this.TicTacB9.Name = "TicTacB9";
             this.TicTacB9.Size = new System.Drawing.Size(90, 75);
             this.TicTacB9.TabIndex = 8;
-            this.TicTacB9.UseVisualStyleBackColor = true;
+            this.TicTacB9.UseVisualStyleBackColor = false;
             this.TicTacB9.Click += new System.EventHandler(this.TicTacB9_Click);
             // 
             // TicTacB8
             // 
+            this.TicTacB8.BackColor = System.Drawing.Color.WhiteSmoke;
             this.TicTacB8.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TicTacB8.Location = new System.Drawing.Point(208, 118);
             this.TicTacB8.Name = "TicTacB8";
             this.TicTacB8.Size = new System.Drawing.Size(90, 75);
             this.TicTacB8.TabIndex = 7;
-            this.TicTacB8.UseVisualStyleBackColor = true;
+            this.TicTacB8.UseVisualStyleBackColor = false;
             this.TicTacB8.Click += new System.EventHandler(this.TicTacB8_Click);
             // 
             // TicTacB7
             // 
+            this.TicTacB7.BackColor = System.Drawing.Color.WhiteSmoke;
             this.TicTacB7.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TicTacB7.Location = new System.Drawing.Point(208, 37);
             this.TicTacB7.Name = "TicTacB7";
             this.TicTacB7.Size = new System.Drawing.Size(90, 75);
             this.TicTacB7.TabIndex = 6;
-            this.TicTacB7.UseVisualStyleBackColor = true;
+            this.TicTacB7.UseVisualStyleBackColor = false;
             this.TicTacB7.Click += new System.EventHandler(this.TicTacB7_Click);
             // 
             // menuStrip1
@@ -217,11 +226,13 @@
             this.TicTacBReset.TabIndex = 10;
             this.TicTacBReset.Text = "Reset";
             this.TicTacBReset.UseVisualStyleBackColor = true;
+            this.TicTacBReset.Click += new System.EventHandler(this.TicTacBReset_Click);
             // 
             // TicTacToe
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.SkyBlue;
             this.ClientSize = new System.Drawing.Size(315, 312);
             this.Controls.Add(this.TicTacBReset);
             this.Controls.Add(this.TicTacB9);
@@ -237,6 +248,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "TicTacToe";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Tic Tac Toe Program";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
