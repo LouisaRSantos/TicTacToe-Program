@@ -54,7 +54,7 @@ namespace Tic_Tac_Toe_Program__Redo_
             }
             
             //if draw
-            if (turn == 9)
+            else if (turn == 9)
             {
                 MessageBox.Show("Draw!");
             }
@@ -90,7 +90,7 @@ namespace Tic_Tac_Toe_Program__Redo_
             }
 
             //if draw
-            if (turn == 9)
+            else if (turn == 9)
             {
                 MessageBox.Show("Draw!");
             }
@@ -126,7 +126,7 @@ namespace Tic_Tac_Toe_Program__Redo_
             }
 
             //if draw
-            if (turn == 9)
+            else if (turn == 9)
             {
                 MessageBox.Show("Draw!");
             }
@@ -166,7 +166,7 @@ namespace Tic_Tac_Toe_Program__Redo_
                 MessageBox.Show("Yey! " + TicTacB3.Text + " wins!");
             }
             //if draw
-            if (turn == 9)
+            else if (turn == 9)
             {
                 MessageBox.Show("Draw!");
             }
@@ -208,7 +208,7 @@ namespace Tic_Tac_Toe_Program__Redo_
             }
             
             //if draw
-            if (turn == 9)
+            else if (turn == 9)
             {
                 MessageBox.Show("Draw!");
             }
@@ -245,7 +245,7 @@ namespace Tic_Tac_Toe_Program__Redo_
             }
 
             //if draw
-            if (turn == 9)
+            else if (turn == 9)
             {
                 MessageBox.Show("Draw!");
             }
@@ -286,7 +286,7 @@ namespace Tic_Tac_Toe_Program__Redo_
             }
 
             //if draw
-            if (turn == 9)
+            else if (turn == 9)
             {
                 MessageBox.Show("Draw!");
             }
@@ -322,7 +322,7 @@ namespace Tic_Tac_Toe_Program__Redo_
             }
 
             //if draw
-            if (turn == 9)
+            else if (turn == 9)
             {
                 MessageBox.Show("Draw!");
             }
@@ -363,7 +363,7 @@ namespace Tic_Tac_Toe_Program__Redo_
             }
 
             //if draw
-            if (turn == 9)
+            else if (turn == 9)
             {
                 MessageBox.Show("Draw!");
             }
